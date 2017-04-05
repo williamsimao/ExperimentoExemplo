@@ -1,4 +1,6 @@
-﻿CREATE TABLE users(
+﻿--exemplo
+
+CREATE TABLE users(
     id serial NOT NULL,
     name VARCHAR (200),
     CONSTRAINT pk_users PRIMARY KEY (id)
